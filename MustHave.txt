@@ -1,0 +1,40 @@
+Created user
+User found --200 ok
+User authenticated ---200 ok
+<--------------------------------------------------------------->
+Created subreddit-201 created
+subreddit removed- 200 ok
+<--------------------------------------------------------------->
+Created Post---201 created
+Post deleted --200 ok
+Comment Deleted--200 ok
+<---------------------------------------------------------------->
+  FEW OTHER CODES
+	1.400-BAD REQUEST
+	2.401-UNAUTHORIZED
+	3.403-FORBIDDEN
+	4.404-NOT FOUND
+	5.409-CONFLICT
+	6.500-INTERNAL SERVER ERROR
+	7.502-BAD GATEWAY
+<--------------------------------------------------------------------------------------------------------------------->
+
+							BASIC THINGS TO REMEBER BEFORE STARTING THE PROJECT
+
+
+							1.Schema should be in camelCasing for eg---> {
+													userName:
+													cityName:
+													}
+							2.Send response codes According to the above 
+							3.Make collections in PostMan of all the api
+							4.Donot send everything to model
+							5.Seprate all the front end part in a folder
+							6.Always use debugger in node to inspect instead of console.log
+							7.Donot use get post update keyword in routes 
+							8.Always test query in mongo shell first
+ 							 ______________________________________
+							|9.DONOT USE EMBEDED DOCUMENT AT ALL   |
+							|______________________________________|
+
+							10.Use Auth in middelWare
